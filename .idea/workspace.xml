@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9c10b90-40f7-41cc-9bdd-b3381ae56358" name="Changes" comment="added main">
+    <list default="true" id="c9c10b90-40f7-41cc-9bdd-b3381ae56358" name="Changes" comment="added variable position to Smartphone">
       <change beforePath="$PROJECT_DIR$/src/main/java/de/neufische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neufische/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/neufische/model/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/Smartphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682430878740</updated>
-      <workItem from="1682430879931" duration="14237000" />
+      <workItem from="1682430879931" duration="14790000" />
     </task>
     <task id="LOCAL-00001" summary="added main">
       <created>1682445006480</created>
@@ -79,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682445006480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed getContact + getContactByName to public">
+      <created>1682446311872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682446311872</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added variable position to Smartphone">
+      <created>1682446732480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682446732480</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added main" />
-    <option name="LAST_COMMIT_MESSAGE" value="added main" />
+    <MESSAGE value="changed getContact + getContactByName to public" />
+    <MESSAGE value="added variable position to Smartphone" />
+    <option name="LAST_COMMIT_MESSAGE" value="added variable position to Smartphone" />
   </component>
 </project>

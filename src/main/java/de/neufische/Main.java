@@ -44,6 +44,7 @@ public class Main {
 
         System.out.println(Tranquilizer.getContactByName("Ralphonso"));
         System.out.println(Tranquilizer.getContact(1));
+        Tranquilizer.startRadio();
 
 
     }
