@@ -90,4 +90,14 @@ public class Smartphone implements Radio, GPS {
         return null;
     }
 
+    boolean removeContactByName(String name){
+        for(Contact c : contacts){
+            if (c.getName().equals(name)){
+                contacts.remove(c);
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
