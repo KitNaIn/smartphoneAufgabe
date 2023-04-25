@@ -36,13 +36,14 @@ public class Main {
         System.out.println(businessContact);*/
 
 
-     Smartphone Tranquilizer = new Smartphone("Model 9000","John Wick",contactList);
+     Smartphone Tranquilizer = new Smartphone("Model 9000","John Wick",contactList,"Köln");
      Tranquilizer.addContact(new Friend("Obi","0190666666"));
      Tranquilizer.addContact(new BusinessContact("Ralphonso","Umbrella"));
 
      // System.out.print(Tranquilizer);
 
-        System.out.println(Tranquilizer.getContactByName("Obi"));
+        System.out.println(Tranquilizer.getContactByName("Ralphonso"));
+        System.out.println(Tranquilizer.getContact(1));
 
 
     }

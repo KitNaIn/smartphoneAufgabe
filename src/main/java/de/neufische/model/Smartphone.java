@@ -4,18 +4,22 @@ import java.util.ArrayList;
 
 public class Smartphone implements Radio, GPS {
 
+
     private String model;
     private String manufacturer;
     private ArrayList<Contact> contacts;
+
+    private  String position;
 
     public Smartphone() {
 
     }
 
-    public Smartphone(String model, String manufacturer, ArrayList<Contact> contacts) {
+    public Smartphone(String model, String manufacturer, ArrayList<Contact> contacts, String position) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.contacts = contacts;
+        this.position = position;
         contacts = new ArrayList<Contact>();
     }
 
@@ -45,7 +49,7 @@ public class Smartphone implements Radio, GPS {
 
     @Override
     public String getPosition() {
-        return "Köln";
+        return this.position;
     }
 
     @Override
