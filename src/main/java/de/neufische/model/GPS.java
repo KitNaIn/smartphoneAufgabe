@@ -1,2 +1,6 @@
-package de.neufische.model;public class GPS {
+package de.neufische.model;
+
+public interface GPS {
+    String getPosition();
+
 }
