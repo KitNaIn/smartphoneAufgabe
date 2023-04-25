@@ -73,11 +73,11 @@ public class Smartphone implements Radio, GPS {
         this.contacts.add(contact);
     }
 
-    Contact getContact(int index) {
+    public Contact getContact(int index) {
         return this.contacts.get(index);
     }
 
-    Contact getContactByName(String name) {
+   public Contact getContactByName(String name) {
         for (Contact c : contacts) {
             if (c.getName().equals(name)) {
                 return c;
@@ -85,4 +85,5 @@ public class Smartphone implements Radio, GPS {
         }
         return null;
     }
+
 }

@@ -13,7 +13,9 @@ public class Main {
 
     ArrayList<Contact> contactList = new ArrayList();
 
- /*   Contact newContact1 = new Friend ("max", "0123465");
+    /*
+
+    Contact newContact1 = new Friend ("max", "0123465");
     Contact newContact2 = new Friend ("maxi", "01234657");
     Contact newContact3 = new Friend ("maxa", "01234658");
     Contact newContact4 = new Friend ("maxo", "01234659");
@@ -26,9 +28,9 @@ public class Main {
     contactList.add(newContact5);
     contactList.add(newContact6);
 
-    System.out.println(contactList);*/
+    System.out.println(contactList);
 
-   /* Contact businessContact = new BusinessContact("Maximus","Tassimo");
+    Contact businessContact = new BusinessContact("Maximus","Tassimo");
     contactList.add(businessContact);
 
         System.out.println(businessContact);*/
@@ -37,9 +39,10 @@ public class Main {
      Smartphone Tranquilizer = new Smartphone("Model 9000","John Wick",contactList);
      Tranquilizer.addContact(new Friend("Obi","0190666666"));
      Tranquilizer.addContact(new BusinessContact("Ralphonso","Umbrella"));
-     System.out.print(Tranquilizer);
 
+     // System.out.print(Tranquilizer);
 
+        System.out.println(Tranquilizer.getContactByName("Obi"));
 
 
     }

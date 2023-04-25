@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9c10b90-40f7-41cc-9bdd-b3381ae56358" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/BusinessContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/GPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/Smartphone.java" afterDir="false" />
+    <list default="true" id="c9c10b90-40f7-41cc-9bdd-b3381ae56358" name="Changes" comment="added main">
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neufische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neufische/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neufische/model/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neufische/model/Smartphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682430878740</updated>
-      <workItem from="1682430879931" duration="11521000" />
+      <workItem from="1682430879931" duration="14237000" />
     </task>
+    <task id="LOCAL-00001" summary="added main">
+      <created>1682445006480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682445006480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,10 +90,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added main" />
+    <option name="LAST_COMMIT_MESSAGE" value="added main" />
   </component>
 </project>
